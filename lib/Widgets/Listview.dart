@@ -16,7 +16,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("Name",Icons.person),
+            // child: offerss("Name",Icons.person),
           ),
           SizedBox(
             height: 10,
@@ -25,7 +25,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("detailes",Icons.details),
+            // child: offerss("detailes",Icons.details),
           ),
           SizedBox(
             height: 10,
@@ -34,7 +34,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("phonenumber", Icons.phone),
+            // child: offerss("phonenumber", Icons.phone),
           ),
           SizedBox(
             height: 10,
@@ -43,7 +43,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("offers", Icons.percent),
+            // child: offerss("offers", Icons.percent),
           ),
           SizedBox(
             height: 10,
@@ -52,7 +52,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("wishlist",Icons.card_travel),
+            // child: offerss("wishlist",Icons.card_travel),
           ),
           SizedBox(
             height: 10,
@@ -61,7 +61,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("cart",Icons.shopping_cart),
+            // child: offerss("cart",Icons.shopping_cart),
           ),
           SizedBox(
             height: 10,
@@ -70,7 +70,7 @@ class Listscreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height*0.05,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), border: Border.all()),
-            child: offerss("order",Icons.bookmark_border),
+            // child: offerss("order",Icons.bookmark_border),
           )
         ],
       ),

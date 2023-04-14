@@ -15,7 +15,7 @@ class Profile extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text(
-          "profile",
+          "notifications",
           style: GoogleFonts.poppins(),
         ),
       ),

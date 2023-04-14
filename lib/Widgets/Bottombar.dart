@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:idzo/Screens/Notifications.dart';
 import 'package:idzo/Screens/Profile.dart';
 import 'package:idzo/Screens/picker.dart';
 import 'package:idzo/Widgets/Listview.dart';
@@ -19,7 +20,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
   final List<Map<String, dynamic>> _pages =  [
     {'Page':const Homepage(),'title':'Home Screen'},
     {'Page':const OfferScreen(),'title':'Offers'},
-    {'Page':const Profile(),'title':'Rewards'},
+    {'Page':Notifcations(),'title':'Rewards'},
     {'Page':const CartScreen(),'title':'Cart'},
     {'Page':const MyPicker(),'title':'Profile'},
 
@@ -50,7 +51,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           items: <BottomNavigationBarItem> [
             BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.local_offer),label: "offers"),
-            BottomNavigationBarItem(icon: Icon(Icons.wallet),label: "wishlist"),
+            BottomNavigationBarItem(icon: Icon(Icons.notification_add),label: "notifications"),
             BottomNavigationBarItem(icon: Icon(Icons.shopping_bag),label: "Cart"),
             BottomNavigationBarItem(icon: Icon(Icons.person_2),label: "Profile"),
 
